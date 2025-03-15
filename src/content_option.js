@@ -83,42 +83,42 @@ const services = [{
 const dataportfolio = [{
         img: port1,
         description: "Menampilkan data penjualan secara visual dan interaktif dengan Excel.",
-        link: "https://github.com/satrians/Dashboard-Sales-Transaction/tree/main",
+        link: "https://github.com/satrians/Dashboard-Sales-Transaction_with_Excel",
     },
     {
         img: port3,
         description: "Memonitoring data prediksi bencana alam.",
-        link: "#",
+        link: "https://github.com/satrians/Projek_Machine_Learning_with_NLP",
     },
     {
         img: port2,
         description: "Menampilkan data penjualan secara visual dan interaktif dengan Looker Studio",
-        link: "#",
+        link: "https://github.com/satrians/Retail_Transaction_Dashboard_With_Looker_Studio",
     },
     {
         img: "https://image.myskill.id/elearning-portfolio/GZhMNg4kKJUuU2xVt7pN/full.png",
         description: "Menampilkan data Time Series secara visual dan interaktif.",
-        link: "#",
+        link: "https://github.com/satrians/Time_Series_Analysis",
     },
     {
         img: "https://miro.medium.com/v2/resize:fit:594/1*DVONSUOkxm_c3XALlSP1lg.png",
         description: "Menganalisis sentimen Pengguna Aplikasi di Google Play Store.",
-        link: "#",
+        link: "https://github.com/satrians/Comparison-Model-RNN-and-CNN-in-Sentiment-Classification-of-User-Reviews-on-the-Play-Store",
     },
     {
         img: port4,
         description: "Menampilkan Bike Sharing secara visual dan interaktif dengan streamlit.",
-        link: "#",
+        link: "https://github.com/satrians/bike-sahring-dashboard",
     },
     {
         img: "https://miro.medium.com/v2/resize:fit:966/1*rnko_Sy3iEQ-sUbzmU4A-A.png",
-        description: "Menganalisis klasisifikasi pesan benar atau salah.",
-        link: "#",
+        description: "Menganalisis klasifikasi pesan spam atau tidak.",
+        link: "https://github.com/satrians/Project_Text_classification_Email_Spam",
     },
     {
         img: "https://ieee-dataport.org/sites/default/files/styles/3x2/public/dataset-cover_1.jpg?itok=d3rZzJJi",
         description: "Menganalisis prediksi penyakit Stroke.",
-        link: "#",
+        link: "https://github.com/satrians/Project_Machine_Learning_Prediction_Healtchare_Stroke",
     }
     
 ];

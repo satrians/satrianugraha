@@ -1,0 +1,154 @@
+const logotext = "SNS";
+const meta = {
+    title: "Satria Nugraha Saputra",
+    description: "I’m Satria Nugraha Saputra data scientist _ Data Analytics",
+};
+
+
+// Gambar project
+import port1 from "../src/assets/images/project1.png";
+import port2 from "../src/assets/images/project2.png";
+import port3 from "../src/assets/images/project3.png";
+import port4 from "../src/assets/images/project4.png";
+
+
+const introdata = {
+    title: "I’m Satria Nugraha Saputra",
+    animated: {
+        first: "I love analytics",
+        second: "I code cool Visual Analytics",
+        third: "I design analytics dashboard",
+    },
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+};
+
+const dataabout = {
+    title: "abit about my self",
+    aboutme: "Fresh graduate from Semarang University who wants to become a professional in the data field who is able to transform raw data into high-value insights to support strategic decision making. As a graduate of Informatics Engineering, I have a strong interest in data analysis, programming (Python, SQL), and machine learning. I am also interested in database management and data visualization to convey information effectively. Problem-solving skills and a desire to continue learning are my main assets in facing challenges in the fields of data science and data engineering. With determination and commitment, I am sure I can become a competent Data Scientist or Data Engineer and contribute to technological progress.",
+};
+const worktimeline = [{
+        jobtitle: "IT Support Team",
+        where: "CV Solusi Arya Prima",
+        date: "2024",
+    },
+    {
+        jobtitle: "Student Internship",
+        where: "PT Hacktivate Teknologi Indonesia",
+        date: "2024",
+    },
+    // {
+    //     jobtitle: "Designer of week",
+    //     where: "ALquds",
+    //     date: "2019",
+    // },
+];
+
+const skills = [{
+        name: "Python",
+        value: 80,
+    },
+    {
+        name: "SQL",
+        value: 70,
+    },
+    {
+        name: "Excel",
+        value: 80,
+    },
+    {
+        name: "Spreadsheet",
+        value: 80,
+    },
+    {
+        name: "Power BI",
+        value: 70,
+    },
+];
+
+const services = [{
+        title: "Data Analysis & Visualization",
+        description: "Mengolah dan menganalisis data untuk memberikan wawasan yang mendalam dan visualisasi yang mudah dipahami, menggunakan alat seperti Power BI, Tableau, dan Excel.",
+    },
+    {
+        title: "UI & UX Design",
+        description: "Mendesain antarmuka yang menarik dan pengalaman pengguna yang optimal untuk aplikasi dan situs web, dengan fokus pada kemudahan penggunaan dan estetika.",
+    },
+    {
+        title: "Microsoft Office",
+        description: "Meningkatkan produktivitas dengan Microsoft Office, termasuk pembuatan dokumen, analisis data di Excel, dan desain presentasi PowerPoint yang profesional.",
+    },
+];
+
+const dataportfolio = [{
+        img: port1,
+        description: "Menampilkan data penjualan secara visual dan interaktif dengan Excel.",
+        link: "https://github.com/satrians/Dashboard-Sales-Transaction/tree/main",
+    },
+    {
+        img: port3,
+        description: "Memonitoring data prediksi bencana alam.",
+        link: "#",
+    },
+    {
+        img: port2,
+        description: "Menampilkan data penjualan secara visual dan interaktif dengan Looker Studio",
+        link: "#",
+    },
+    {
+        img: "https://image.myskill.id/elearning-portfolio/GZhMNg4kKJUuU2xVt7pN/full.png",
+        description: "Menampilkan data Time Series secara visual dan interaktif.",
+        link: "#",
+    },
+    {
+        img: "https://miro.medium.com/v2/resize:fit:594/1*DVONSUOkxm_c3XALlSP1lg.png",
+        description: "Menganalisis sentimen Pengguna Aplikasi di Google Play Store.",
+        link: "#",
+    },
+    {
+        img: port4,
+        description: "Menampilkan Bike Sharing secara visual dan interaktif dengan streamlit.",
+        link: "#",
+    },
+    {
+        img: "https://miro.medium.com/v2/resize:fit:966/1*rnko_Sy3iEQ-sUbzmU4A-A.png",
+        description: "Menganalisis klasisifikasi pesan benar atau salah.",
+        link: "#",
+    },
+    {
+        img: "https://ieee-dataport.org/sites/default/files/styles/3x2/public/dataset-cover_1.jpg?itok=d3rZzJJi",
+        description: "Menganalisis prediksi penyakit Stroke.",
+        link: "#",
+    }
+    
+];
+
+const contactConfig = {
+    YOUR_EMAIL: "name@domain.com",
+    YOUR_FONE: "(+62)",
+    description: "Untuk informasi lebih lanjut atau untuk memulai proyek bersama, Anda dapat menghubungi melalui salah satu metode berikut:",
+    // creat an emailjs.com account 
+    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+    YOUR_SERVICE_ID: "service_054hgwt",
+    YOUR_TEMPLATE_ID: "template_z8rvhmp",
+    YOUR_USER_ID: "user_id",
+};
+
+const socialprofils = {
+    github: "https://github.com",
+    facebook: "https://facebook.com",
+    linkedin: "https://linkedin.com",
+    twitter: "https://twitter.com",
+};
+export {
+    meta,
+    dataabout,
+    dataportfolio,
+    worktimeline,
+    skills,
+    services,
+    introdata,
+    contactConfig,
+    socialprofils,
+    logotext,
+};

@@ -37,11 +37,6 @@ const worktimeline = [{
         where: "PT Hacktivate Teknologi Indonesia",
         date: "2024",
     },
-    // {
-    //     jobtitle: "Designer of week",
-    //     where: "ALquds",
-    //     date: "2019",
-    // },
 ];
 
 const skills = [{

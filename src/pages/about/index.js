@@ -15,10 +15,10 @@ import fileCV from "../../assets/fileCV/Satria Nugraha Saputra_resume.pdf"
 export const About = () => {
 
   const handleDownload = () => {
-    const cvUrl = fileCV; // Ganti dengan path CV Anda
+    const cvUrl = fileCV; 
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "CV_SatriaNugrahaSaputra.pdf"; // Sesuaikan nama file
+    link.download = "CV_SatriaNugrahaSaputra.pdf"; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

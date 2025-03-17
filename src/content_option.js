@@ -19,7 +19,7 @@ const introdata = {
         second: "I Code Cool Visual Analytics",
         third: "I Design Analytics Dashboard",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Saya adalah lulusan Teknik Informatika dengan minat besar di bidang analisis data dan machine learning. Memiliki keahlian dalam pemrograman menggunakan Python dan SQL, serta mampu mengolah, menganalisis, dan memvisualisasikan data untuk menghasilkan insight yang mendukung pengambilan keputusan.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 

@@ -8,6 +8,7 @@ import { contactConfig } from "../../content_option";
 
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
+    subject: "",
     email: "",
     name: "",
     message: "",
@@ -22,6 +23,7 @@ export const ContactUs = () => {
     setFormdata({ loading: true });
 
     const templateParams = {
+      subject: formData.subject,
       from_name: formData.email,
       user_name: formData.name,
       to_name: contactConfig.YOUR_EMAIL,
@@ -113,6 +115,18 @@ export const ContactUs = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
+                <div lg="12" className="form-group">
+                  <input
+                    className="form-control"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject"
+                    value={formData.subject || ""}
+                    type="text"
+                    required
+                    onChange={handleChange}
+                  />
+                </div>
               <Row>
                 <Col lg="6" className="form-group">
                   <input

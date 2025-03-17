@@ -119,14 +119,14 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(+62)",
+    YOUR_EMAIL: "satrians49@gmail.com",
+    YOUR_FONE: "(+62) 817-7059-8205",
     description: "Untuk informasi lebih lanjut atau untuk memulai proyek bersama, Anda dapat menghubungi melalui salah satu metode berikut:",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_054hgwt",
     YOUR_TEMPLATE_ID: "template_z8rvhmp",
-    YOUR_USER_ID: "user_id",
+    YOUR_USER_ID: "vW2WXyXM-VjdfgEIt",
 };
 
 const socialprofils = {

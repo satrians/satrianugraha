@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import {
   dataabout,
   meta,
@@ -38,9 +38,9 @@ export const About = () => {
             
           </Col>
           <Col sm="4" xs="6">
-          <Button variant="outline-warning" onClick={handleDownload}>
+          <button className="btn btn_cv" onClick={handleDownload}>
             Download CV
-          </Button>
+          </button>
           </Col>
           <hr className="t_border m2-0 text-left" />
         </Row>

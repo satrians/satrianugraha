@@ -10,7 +10,7 @@ import {
   services,
 } from "../../content_option";
 
-import fileCV from "../../assets/fileCV/Satria Nugraha Saputra_resume.pdf"
+import fileCV from "../../assets/fileCV/CV_satria.pdf"
 
 export const About = () => {
 

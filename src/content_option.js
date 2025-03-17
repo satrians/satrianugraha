@@ -15,9 +15,9 @@ import port4 from "../src/assets/images/project4.png";
 const introdata = {
     title: "I’m Satria Nugraha Saputra",
     animated: {
-        first: "I love Analytics",
-        second: "I code cool Visual Analytics",
-        third: "I design Analytics Dashboard",
+        first: "I Love Analytics",
+        second: "I Code Cool Visual Analytics",
+        third: "I Design Analytics Dashboard",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",

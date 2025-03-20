@@ -74,6 +74,10 @@ const services = [{
         title: "Microsoft Office",
         description: "Meningkatkan produktivitas dengan Microsoft Office, termasuk pembuatan dokumen, analisis data di Excel, dan desain presentasi PowerPoint yang profesional.",
     },
+    {
+        title: "Text Mining",
+        description: "Mengolah dan menganalisis data teks untuk menemukan wawasan penting, seperti tren, sentimen, dan pola dalam teks dari berbagai sumber (misalnya, ulasan, artikel, dan media sosial).",
+    },
 ];
 
 const dataportfolio = [{

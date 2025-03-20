@@ -21,7 +21,7 @@ const introdata = {
         third: "I Design Analytics Dashboard",
     },
     description: "Saya adalah lulusan Teknik Informatika dengan minat besar di bidang analisis data dan machine learning. Memiliki keahlian dalam pemrograman menggunakan Python dan SQL, serta mampu mengolah, menganalisis, dan memvisualisasikan data untuk menghasilkan insight yang mendukung pengambilan keputusan.",
-    img: port5,
+    your_img_url: port5,
 };
 
 const dataabout = {

@@ -10,6 +10,7 @@ import port1 from "../src/assets/images/project1.png";
 import port2 from "../src/assets/images/project2.png";
 import port3 from "../src/assets/images/project3.png";
 import port4 from "../src/assets/images/project4.png";
+import port5 from "../src/assets/images/foto.jpg";
 
 
 const introdata = {
@@ -20,7 +21,7 @@ const introdata = {
         third: "I Design Analytics Dashboard",
     },
     description: "Saya adalah lulusan Teknik Informatika dengan minat besar di bidang analisis data dan machine learning. Memiliki keahlian dalam pemrograman menggunakan Python dan SQL, serta mampu mengolah, menganalisis, dan memvisualisasikan data untuk menghasilkan insight yang mendukung pengambilan keputusan.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    img: port5,
 };
 
 const dataabout = {

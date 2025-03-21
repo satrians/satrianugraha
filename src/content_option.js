@@ -10,7 +10,7 @@ import port1 from "../src/assets/images/project1.png";
 import port2 from "../src/assets/images/project2.png";
 import port3 from "../src/assets/images/project3.png";
 import port4 from "../src/assets/images/project4.png";
-import port5 from "../src/assets/images/foto.jpg";
+import port5 from "../src/assets/images/foto1.jpg";
 
 
 const introdata = {

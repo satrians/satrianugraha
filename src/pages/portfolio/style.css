@@ -85,6 +85,10 @@
     text-decoration: none;
 }
 
+.show_btn{
+    color: var(--text-color);
+}
+
 @media (min-width: 768px) {
     .po_items_ho {
         grid-template-columns: repeat(2, minmax(0, 1fr));

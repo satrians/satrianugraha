@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
+import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 
 export const Portfolio = () => {
+  const [show, setShow] = useState(false);
+
+  const limitPortfolio = show ? dataportfolio : dataportfolio.slice(0, 6);
+  const handleShowMore = () => {
+    setShow((prevState) => !prevState);
+  };
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -20,7 +27,7 @@ export const Portfolio = () => {
           </Col>
         </Row>
         <div className="mb-5 po_items_ho">
-          {dataportfolio.map((data, i) => {
+          {limitPortfolio.map((data, i) => {
             return (
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
@@ -31,6 +38,15 @@ export const Portfolio = () => {
               </div>
             );
           })}
+        </div>
+        <div className="d-flex justify-content-center">
+          <button
+            className="btn btn-sm show_btn d-flex flex-column align-items-center"
+            onClick={handleShowMore}
+          >
+            <span>{show ? "Show Less" : "Show More"}</span>
+            {show ? <FaAngleUp /> : <FaAngleDown />}
+          </button>
         </div>
       </Container>
     </HelmetProvider>

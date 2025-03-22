@@ -119,8 +119,12 @@ const dataportfolio = [{
         img: "https://ieee-dataport.org/sites/default/files/styles/3x2/public/dataset-cover_1.jpg?itok=d3rZzJJi",
         description: "Menganalisis prediksi penyakit Stroke.",
         link: "https://github.com/satrians/Project_Machine_Learning_Prediction_Healtchare_Stroke",
+    },
+    {
+        img: "https://image.myskill.id/elearning-portfolio/ZTdlsfp90liSlgYjkBCS/full.png",
+        description: "Suatu kegiatan untuk mengetahui apakah terdapat perilaku user atau pengguna yang kembali bertransaksi atau menggunakan suatu produk.",
+        link: "https://github.com/satrians/User_Retention_Analysis/tree/main",
     }
-    
 ];
 
 const contactConfig = {

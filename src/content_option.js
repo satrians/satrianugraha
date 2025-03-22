@@ -122,7 +122,7 @@ const dataportfolio = [{
     },
     {
         img: "https://image.myskill.id/elearning-portfolio/ZTdlsfp90liSlgYjkBCS/full.png",
-        description: "Suatu kegiatan untuk mengetahui apakah terdapat perilaku user atau pengguna yang kembali bertransaksi atau menggunakan suatu produk.",
+        description: "Suatu kegiatan untuk mengetahui apakah terdapat perilaku user yang kembali bertransaksi atau menggunakan suatu produk.",
         link: "https://github.com/satrians/User_Retention_Analysis/tree/main",
     }
 ];

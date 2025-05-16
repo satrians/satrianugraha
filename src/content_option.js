@@ -116,7 +116,7 @@ const dataportfolio = [{
         link: "https://github.com/satrians/Project_Text_classification_Email_Spam",
     },
     {
-        img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Ffedesoriano%2Fstroke-prediction-dataset&psig=AOvVaw3onzb7V51q5fw9c1-bwqI7&ust=1747492093169000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjjmsGZqI0DFQAAAAAdAAAAABAG",
+        img: "https://media.licdn.com/dms/image/v2/C4D12AQHjc3c5eqQpRA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1636651730602?e=2147483647&v=beta&t=b0h9Jb3UHLkxwGqAWIECP6MGP7yhkLLuRdGLpgr6PGE",
         description: "Menganalisis prediksi penyakit Stroke.",
         link: "https://github.com/satrians/Project_Machine_Learning_Prediction_Healtchare_Stroke",
     },

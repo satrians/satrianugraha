@@ -20,7 +20,7 @@ const introdata = {
         second: "I Analyze Data for Insights",
         third: "I Code with Python & SQL"
     },
-    description: "Saya adalah lulusan Teknik Informatika dengan minat besar di bidang analisis data dan machine learning. Memiliki keahlian dalam pemrograman menggunakan Python dan SQL, serta mampu mengolah, menganalisis, dan memvisualisasikan data untuk menghasilkan insight yang mendukung pengambilan keputusan.",
+    description: "A fresh graduate in Informatics Engineering from Universitas Semarang with a strong passion for Artificial Intelligence, Data Science, and data-driven decision-making. Experienced in Python programming, data analysis, machine learning, and data visualization. Participated in the IBM SkillsBuild for AI & Cybersecurity program and various data-related projects. Known for being a fast learner with strong problem-solving skills, eager to contribute as a junior AI Engineer in a collaborative and innovative team environment.",
     your_img_url: port5,
 };
 

@@ -15,10 +15,10 @@ import port5 from "../src/assets/images/foto1.jpg";
 
 const introdata = {
     title: "I’m Satria Nugraha Saputra",
-    animated: {
-        first: "I Love Analytics",
-        second: "I Code Cool Visual Analytics",
-        third: "I Design Analytics Dashboard",
+   animated: {
+        first: "I Build AI-Powered Solutions",
+        second: "I Analyze Data for Insights",
+        third: "I Code with Python & SQL"
     },
     description: "Saya adalah lulusan Teknik Informatika dengan minat besar di bidang analisis data dan machine learning. Memiliki keahlian dalam pemrograman menggunakan Python dan SQL, serta mampu mengolah, menganalisis, dan memvisualisasikan data untuk menghasilkan insight yang mendukung pengambilan keputusan.",
     your_img_url: port5,

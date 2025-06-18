@@ -11,6 +11,8 @@ import port2 from "../src/assets/images/project2.png";
 import port3 from "../src/assets/images/project3.png";
 import port4 from "../src/assets/images/project4.png";
 import port5 from "../src/assets/images/foto1.jpg";
+import port6 from "../src/assets/images/Analisis_Sentimen_WA.png";
+import port7 from "../src/assets/images/Customer Segmentation and Classification using Clustering and Decision Tree.png";
 
 
 const introdata = {
@@ -25,7 +27,7 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "A bit about my self",
     aboutme: "Fresh graduate from Semarang University who wants to become a professional in the data field who is able to transform raw data into high-value insights to support strategic decision making. As a graduate of Informatics Engineering, I have a strong interest in data analysis, programming (Python, SQL), and machine learning. I am also interested in database management and data visualization to convey information effectively. Problem-solving skills and a desire to continue learning are my main assets in facing challenges in the fields of data science and data engineering. With determination and commitment, I am sure I can become a competent Data Scientist or Data Engineer and contribute to technological progress.",
 };
 const worktimeline = [{
@@ -40,45 +42,56 @@ const worktimeline = [{
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 80,
+const skills = {
+  "Programming & Libraries": [
+    { name: "Python", value: 85 },
+    { name: "SQL", value: 75 },
+    { name: "Pandas", value: 80 },
+    { name: "NumPy", value: 75 },
+    { name: "Scikit-learn", value: 70 },
+    { name: "TensorFlow / Keras", value: 65 },
+  ],
+  "Visualization Tools": [
+    { name: "Excel", value: 80 },
+    { name: "Power BI", value: 75 },
+    { name: "Looker Studio", value: 70 },
+    { name: "Matplotlib / Seaborn", value: 70 },
+  ],
+  "NLP & Text Processing": [
+    { name: "Natural Language Processing (NLP)", value: 70 },
+    { name: "Text Mining", value: 70 },
+  ],
+  "Productivity & Collaboration": [
+    { name: "Google Sheets / Spreadsheet", value: 80 },
+    { name: "Microsoft Office", value: 80 },
+    { name: "Git & GitHub", value: 75 },
+  ],
+};
+
+
+const services = [
+    {
+        title: "🧠 Data Analysis & Visualization",
+        description: "Providing actionable insights through data processing, analysis, and clear visualizations using Power BI, Tableau, Excel, and Python-based libraries such as Matplotlib and Seaborn.",
     },
     {
-        name: "SQL",
-        value: 70,
+        title: "🤖 Machine Learning & Predictive Modeling",
+        description: "Building and evaluating machine learning models to uncover patterns, make predictions, and support data-driven decisions using tools such as scikit-learn and TensorFlow.",
     },
     {
-        name: "Excel",
-        value: 80,
+        title: "🧾 Text Mining & Natural Language Processing",
+        description: "Extracting insights from text data using NLP techniques such as sentiment analysis, topic modeling, and keyword extraction, applied to reviews, articles, and social media content.",
     },
     {
-        name: "Spreadsheet",
-        value: 80,
+        title: "📊 Database Management & SQL",
+        description: "Designing, querying, and managing relational databases using SQL (MySQL, PostgreSQL), enabling efficient data storage, retrieval, and transformation.",
     },
     {
-        name: "Power BI",
-        value: 70,
-    },
+        title: "📈 Data Productivity Tools",
+        description: "Utilizing Microsoft Office Suite (Word, Excel, PowerPoint, etc.) and Google Suite (Docs, Sheets, Slides, etc.) to support documentation, data organization , and profesional reporting in business environtments.",
+    }
 ];
 
-const services = [{
-        title: "Data Analysis & Visualization",
-        description: "Mengolah dan menganalisis data untuk memberikan wawasan yang mendalam dan visualisasi yang mudah dipahami, menggunakan alat seperti Power BI, Tableau, dan Excel.",
-    },
-    {
-        title: "UI & UX Design",
-        description: "Mendesain antarmuka yang menarik dan pengalaman pengguna yang optimal untuk aplikasi dan situs web, dengan fokus pada kemudahan penggunaan dan estetika.",
-    },
-    {
-        title: "Microsoft Office",
-        description: "Meningkatkan produktivitas dengan Microsoft Office, termasuk pembuatan dokumen, analisis data di Excel, dan desain presentasi PowerPoint yang profesional.",
-    },
-    {
-        title: "Text Mining",
-        description: "Mengolah dan menganalisis data teks untuk menemukan wawasan penting, seperti tren, sentimen, dan pola dalam teks dari berbagai sumber (misalnya, ulasan, artikel, dan media sosial).",
-    },
-];
 
 const dataportfolio = [{
         img: port1,
@@ -87,11 +100,11 @@ const dataportfolio = [{
     },
     {
         img: port3,
-        description: "Memonitoring data prediksi bencana alam.",
+        description: "Memprediksi Teks Bencana Alam Dengan NLP.",
         link: "https://github.com/satrians/Projek_Machine_Learning_with_NLP",
     },
     {
-        img: port2,
+        img: port2,     
         description: "Menampilkan data penjualan secara visual dan interaktif dengan Looker Studio",
         link: "https://github.com/satrians/Retail_Transaction_Dashboard_With_Looker_Studio",
     },
@@ -124,6 +137,16 @@ const dataportfolio = [{
         img: "https://image.myskill.id/elearning-portfolio/ZTdlsfp90liSlgYjkBCS/full.png",
         description: "Suatu kegiatan untuk mengetahui apakah terdapat perilaku user yang kembali bertransaksi atau menggunakan suatu produk.",
         link: "https://github.com/satrians/User_Retention_Analysis/tree/main",
+    },
+    {
+        img: port6,
+        description: "Menganalisis Sentimen Review pesan Whatsapp.",
+        link: "https://github.com/satrians/Project_Analysis_Sentiment_Review_Whatsapp",
+    },
+    {
+        img: port7,
+        description: "Menganalisis Customer Segmentation dan Classification menggunakan Clustering dan Decision Tree.",
+        link: "https://github.com/satrians/Project_Supervised_and_Unsupervised_Learning",
     }
 ];
 

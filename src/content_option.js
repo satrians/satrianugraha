@@ -162,9 +162,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/satrians",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/satria-nugraha-saputra-647807179/",
     twitter: "https://twitter.com",
 };
 export {
